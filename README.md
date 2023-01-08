@@ -4,12 +4,13 @@ This repository contains source code necessary to reproduce some of the main res
 
 **If you use this software, please consider citing:**
     
-      @article{giunchiglia2022towards,
-         title={Towards Training GNNs using Explanation Directed Message Passing},
-         author={Giunchiglia, Valentina and Shukla, Chirag Varun and Gonzalez, Guadalupe and Agarwal, Chirag},
-         journal={arXiv preprint arXiv:2211.16731},
-         year={2022}
-      }  
+      @inproceedings{giunchiglia2022towards,
+        title={Towards Training {GNN}s using Explanation Directed Message Passing},
+        author={Valentina Giunchiglia and Chirag Varun Shukla and Guadalupe Gonzalez and Chirag Agarwal},
+        booktitle={The First Learning on Graphs Conference},
+        year={2022},
+        url={https://openreview.net/forum?id=_nlbNbawXDi}
+        }  
 
 <p align="center">
     <img src="mp_vs_expass.png" width=540px>
@@ -64,7 +65,7 @@ python train.py \
    --explainer <EXPLAINER>
 ```
 ## 4. License
-Note that the code in this repository is licensed under MIT License. Please carefully check them before use
+Note that the code in this repository is licensed under MIT License. Please carefully check them before use.
 
 ## 5. Questions?
 If you have questions/suggestions, please feel free to email one of the authors ([Valentina Giunchiglia](v.giunchiglia20@imperial.ac.uk), or [Chirag Shukla](shukla@math.lmu.de)) or create github issues.
