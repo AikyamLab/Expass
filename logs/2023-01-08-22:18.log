@@ -1,0 +1,53 @@
+
+
+[dataset: '       mutag'][architecture: '         gcn'][explainer: 'gnn_explainer'][vanilla: 'OFF']
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from sklearn.metrics import roc_auc_score, f1_score
+ModuleNotFoundError: No module named 'sklearn'
+
+
+[dataset: '       mutag'][architecture: '         gcn'][explainer: 'gnn_explainer'][vanilla: 'ON']
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from sklearn.metrics import roc_auc_score, f1_score
+ModuleNotFoundError: No module named 'sklearn'
+
+
+[dataset: '       mutag'][architecture: '         gcn'][explainer: 'pgmexplainer'][vanilla: 'OFF']
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from sklearn.metrics import roc_auc_score, f1_score
+ModuleNotFoundError: No module named 'sklearn'
+
+
+[dataset: '       mutag'][architecture: '         gcn'][explainer: 'pgmexplainer'][vanilla: 'ON']
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from sklearn.metrics import roc_auc_score, f1_score
+ModuleNotFoundError: No module named 'sklearn'
+
+
+[dataset: '       mutag'][architecture: '         gcn'][explainer: 'intgradexplainer'][vanilla: 'OFF']
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from sklearn.metrics import roc_auc_score, f1_score
+ModuleNotFoundError: No module named 'sklearn'
+
+
+[dataset: '       mutag'][architecture: '         gcn'][explainer: 'intgradexplainer'][vanilla: 'ON']
+
+
+[dataset: '       mutag'][architecture: '   graphconv'][explainer: 'gnn_explainer'][vanilla: 'OFF']
+
+
+[dataset: '       mutag'][architecture: '   graphconv'][explainer: 'gnn_explainer'][vanilla: 'ON']
+
+
+[dataset: '       mutag'][architecture: '   graphconv'][explainer: 'pgmexplainer'][vanilla: 'OFF']
+
+
+[dataset: '       mutag'][architecture: '   graphconv'][explainer: 'pgmexplainer'][vanilla: 'ON']
+
+
+[dataset: '       mutag'][architecture: '   graphconv'][explainer: 'intgradexplainer'][vanilla: 'OFF']
