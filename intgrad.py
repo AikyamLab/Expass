@@ -11,7 +11,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 class IntegratedGradExplainer(_BaseExplainer):
     """
-    Integrated Gradient Explanation for GNNs
+    Integrated Gradient Explanation for GNNs from GraphXAI
     Args:
         model (torch.nn.Module): Model on which to make predictions.
         criterion (Callable[[torch.Tensor, torch.Tensor], torch.Tensor]): Loss function.
